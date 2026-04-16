@@ -162,15 +162,18 @@ body .full-width{
     gap: var(--gab);
     min-height: 100vh;
 }
+
 .intro-text, .intro-img{
     display: flex;
     flex-flow:column wrap ;
     justify-content: center;
 }
+
 .intro-text h1{
     font-size: 5rem;
     margin-bottom: 4rem;
 }
+
 .intro-img img{
     width: 100%;
     height: auto;
@@ -186,31 +189,37 @@ body .full-width{
     justify-content: center;
     text-align: center;
 }
+
 .grid-one-content{
     min-height: 100vh;
     display: flex;
     flex-flow:column wrap;
     justify-content: center;
 }
+
 .grid-main-heading{
     padding-top: 6rem;
     margin-bottom: 1rem;
 }
+
 .grid-description{
     padding-bottom: 5rem;
 }
+
 .grid{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     gap: var(--gab);
     counter-reset: grid-counter;
 }
+
 .grid h3{
     font-size: 3rem;
     position: relative;
     padding-left: 4rem;
     padding-bottom: 2rem;
 }
+
 .grid h3::before{
     counter-increment: grid-counter;
     content: counter(grid-counter) ;
@@ -229,9 +238,11 @@ body .full-width{
     max-height: 360px;
     overflow: hidden;
 }
+
 .gallery-img img{
     transition: all 300ms ease-in-out;
 }
+
 .gallery-img img:hover{
     transform: translate(-3%, 3%) scale(1.2)rotate(5deg);
 }
@@ -240,16 +251,19 @@ body .full-width{
 .contact-form{
     grid-column: span 2;
 }
+
 .contact-text, .contact-img{
     padding-top: 6rem;
     display: flex;
     flex-flow:column wrap ;
     justify-content: center;
 }
+
 .contact-img img{
     width: 100%;
     height: auto;
 }
+
 .contact-form .form-grid{
     border: none;
     display: flex;
@@ -257,21 +271,26 @@ body .full-width{
     flex-wrap: wrap;
     gap: var(--gab);   
 }
+
 .form-grid legend{
     font-size: 2rem;
     margin-bottom: 3rem;
 }
+
 .form-group{
     flex: 1 1 320px;
 }
+
 .form-group label{
     display: block;
 }
+
 .form-group input ,.form-group textarea{
     width: 100%;
     padding: 1.5rem 2rem;
     font-size: 3rem;
 }
+
 .form-group button{
    background: none;
    border: 0.7rem solid white;
@@ -281,10 +300,12 @@ body .full-width{
    cursor: pointer;
    transition: all 300ms ease-in-out ;
 }
+
 .form-group button:hover{
    background: white;
    color: #333;
 }
+
 .close-menu{
     display: none;
 }
