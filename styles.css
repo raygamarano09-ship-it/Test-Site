@@ -182,6 +182,7 @@ body .full-width{
 
 
 .top3-content{
+    padding-top: 6rem;
     max-width: 64rem;
     min-height: 100vh;
     display: flex;
