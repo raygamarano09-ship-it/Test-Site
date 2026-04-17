@@ -44,7 +44,7 @@ a {
     text-decoration: none   ;
 }
 .respansive-table{
-    width: 100%;
+    width: 100%  ;
     overflow: hidden;
     overflow-x: scroll;
 
@@ -186,9 +186,10 @@ body .full-width{
 .top3-content{
     padding-top: 6rem;
     max-width: 64rem;
+    width: 100%;
     min-height: 100vh;
     display: flex;
-    flex-flow:column wrap;
+    flex-flow:column ;  
     justify-content: center;
     text-align: center;
 }
