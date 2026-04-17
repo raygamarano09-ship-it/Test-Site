@@ -44,8 +44,10 @@ a {
     text-decoration: none   ;
 }
 .respansive-table{
+    width: 100%;
     overflow: hidden;
-    overflow-x: auto;
+    overflow-x: scroll;
+
 }
 table{
     min-width: 360px;
@@ -247,7 +249,6 @@ body .full-width{
 .gallery-img img:hover{
     transform: translate(-3%, 3%) scale(1.2)rotate(5deg);
 }
-
 
 .contact-form{
     grid-column: span 2;
