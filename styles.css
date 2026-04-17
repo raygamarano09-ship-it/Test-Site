@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 html{
+    max-width: 100%;
+
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
